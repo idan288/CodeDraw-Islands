@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Shape Island Levels</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/shape.css">
+	<link rel="stylesheet" href="lib/Semantic-UI-CSS-master/semantic.css">
+	<link rel="stylesheet" type="text/css" href="lib/Semantic-UI-CSS-master/components/reset.css">
+	<link rel="stylesheet" type="text/css" href="lib/Semantic-UI-CSS-master/components/site.css">
+	<link rel="stylesheet" type="text/css" href="lib/Semantic-UI-CSS-master/components/divider.css">
+	<link rel="stylesheet" type="text/css" href="lib/Semantic-UI-CSS-master/components/button.css">
+	<link rel="stylesheet" type="text/css" href="lib/Semantic-UI-CSS-master/components/icon.css">
+	<link rel="stylesheet" type="text/css" href="lib/Semantic-UI-CSS-master/components/popup.css">
+	<link rel="stylesheet" type="text/css" href="lib/Semantic-UI-CSS-master/components/progress.css">
+	<link rel="stylesheet" type="text/css" href="lib/Semantic-UI-CSS-master/components/transition.css">
+	<link rel="stylesheet" type="text/css" href="lib/Semantic-UI-CSS-master/components/loader.css">
+	<link rel="stylesheet" type="text/css" href="lib/Semantic-UI-CSS-master/components/modal.css">
+	<link rel="stylesheet" type="text/css" href="lib/Semantic-UI-CSS-master/components/container.css">
+	<link rel="stylesheet" type="text/css" href="lib/Semantic-UI-CSS-master/components/dimmer.css">
+	<link rel="stylesheet" type="text/css" href="lib/Semantic-UI-CSS-master/components/image.css">
+	<link rel="stylesheet" type="text/css" href="lib/Semantic-UI-CSS-master/components/segment.css">
+	<link rel="stylesheet" type="text/css" href="lib/Semantic-UI-CSS-master/components/header.css">
+	<link rel="stylesheet" type="text/css" href="lib/Semantic-UI-CSS-master/components/reveal.css">
+	<link rel="stylesheet" type="text/css" href="lib/Semantic-UI-CSS-master/components/label.css">
+	<link rel="stylesheet" type="text/css" href="lib/Semantic-UI-CSS-master/components/menu.css">
+	<link rel="stylesheet" type="text/css" href="lib/Semantic-UI-CSS-master/components/dropdown.css">
+	<link rel="stylesheet" type="text/css" href="lib/Semantic-UI-CSS-master/components/flag.css">
+	<link rel="stylesheet" type="text/css" href="lib/Semantic-UI-CSS-master/components/form.css">
+	<link rel="stylesheet" type="text/css" href="lib/Semantic-UI-CSS-master/components/message.css">
+	<link rel="stylesheet" type="text/css" href="lib/Semantic-UI-CSS-master/components/sidebar.css">
+	<link rel="stylesheet" type="text/css" href="lib/Semantic-UI-CSS-master/components/grid.css">
+	<script src="lib/Semantic-UI-CSS-master/semantic.js"></script>
+	<script src="lib/Semantic-UI-CSS-master/components/sidebar.js"></script>
+	<script src="lib/Semantic-UI-CSS-master/components/progress.js"></script>
+	<script src="lib/Semantic-UI-CSS-master/components/visibility.js"></script>
+	<script src="lib/Semantic-UI-CSS-master/components/form.js"></script>
+	<script src="lib/Semantic-UI-CSS-master/components/modal.js"></script>
+	<script src="lib/Semantic-UI-CSS-master/components/transition.js"></script>
+	<script src="lib/Semantic-UI-CSS-master/components/dimmer.js"></script>
+	<script src="lib/Semantic-UI-CSS-master/components/dropdown.js"></script>
+</head>
+
+<body>
+	<div id="world"></div>
+	<div id="dist">
+		<div id="distValue">Shape Island Levels</div>
+		<div id="label2">Choose level and become great CodeDrawer...</div>
+	</div>
+
+	<div class="ui ten steps stackable mini" id="tex">
+		<div class="step">
+			<i class="truck icon"></i>
+			<div class="content">
+				<div class="title">Level 1</div>
+			</div>
+		</div>
+		<div class="active step">
+			<i class="payment icon"></i>
+			<div class="content">
+				<div class="title">Level 2</div>
+				<svg id="myV" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+					<path d="M9 21.035l-9-8.638 2.791-2.87 6.156 5.874 12.21-12.436 2.843 2.817z" />
+				</svg>
+			</div>
+		</div>
+		<div class="disabled step">
+			<i class="info icon"></i>
+			<div class="content">
+				<div class="title">Level 3</div>
+			</div>
+		</div>
+		<div class="disabled step">
+			<i class="info icon"></i>
+			<div class="content">
+				<div class="title">Level 4</div>
+			</div>
+		</div>
+		<div class="disabled step">
+			<i class="info icon"></i>
+			<div class="content">
+				<div class="title">Level 5</div>
+			</div>
+		</div>
+		<div class="disabled step">
+			<i class="info icon"></i>
+			<div class="content">
+				<div class="title">Level 6</div>
+			</div>
+		</div>
+		<div class="disabled step">
+			<i class="info icon"></i>
+			<div class="content">
+				<div class="title">Level 7</div>
+			</div>
+		</div>
+		<div class="disabled step">
+			<i class="info icon"></i>
+			<div class="content">
+				<div class="title">Level 8</div>
+			</div>
+		</div>
+		<div class="disabled step">
+			<i class="info icon"></i>
+			<div class="content">
+				<div class="title">Level 9</div>
+			</div>
+		</div>
+		<div class="disabled step">
+			<i class="info icon"></i>
+			<div class="content">
+				<div class="title">Level 10</div>
+			</div>
+		</div>
+	</div>
+	<script src="lib/src/uncompressed/TimelineMax.js"></script>
+	<script src="lib/src/uncompressed/TimelineLite.js"></script>
+	<script src="lib/src/uncompressed/TweenLite.js"></script>
+	<script src="lib/src/uncompressed/TweenMax.js"></script>
+	<script src="dist/bundleShape.js"></script>
+</body>
+
+</html>

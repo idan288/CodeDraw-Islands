@@ -1,0 +1,21 @@
+{
+  "name": "newPixiTry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^3.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack js/threeTry.js  dist/bundle.js",
+    "buildShape": "webpack js/shapeIslandLevels.js  dist/bundleShape.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
